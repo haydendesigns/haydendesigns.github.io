@@ -1,0 +1,203 @@
+@import url('http://www.fontbros.com/families/nexa?src=GoogleFonts');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+ul li {
+    display: inline;
+    text-transform: uppercase;
+    padding: 20px;
+    cursor: pointer;
+}
+.top {
+    padding: 5px;
+    background: linear-gradient(45deg, #d350db, teal, #d350db);
+    animation: gradient 10s ease infinite;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-shadow: 1px 1px 5px black;
+    color: white;
+    background-size: 400% 400%;
+    text-align: center;
+}
+.nav {
+    float: right;
+    font-family: "nexa", sans-serif;
+    font-size: 20px;
+    text-shadow: 1px 1px 5px black;
+    color: #ffffff;
+    padding: 0px 50px;
+}
+body {
+    background-image: url(imgs/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.wrap {
+    max-width: 960px;
+    height: 1500px;
+    margin: auto;
+    background: #999;
+    padding: 0px 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 50px black;
+    opacity: 0.95;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    font-family: "nexa", sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px black;
+}
+h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    font-family: "nexa", sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px black;
+    border-bottom: 2px solid #dddddd;
+    margin-bottom: 20px;
+}
+.port1 {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    box-shadow: 0px 0px 20px black;
+    float: left;
+}
+.port2 {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    box-shadow: 0px 0px 20px black;
+    margin: 0px 30px;
+}
+.port3 {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    box-shadow: 0px 0px 20px black;
+    float: right;
+}
+.text3 {
+    font-family: "nexa", sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.sites {
+    padding-bottom: 30px;
+}
+.profile {
+    float: left;
+    margin-right: 20px;
+    box-shadow: 0px 0px 20px black;
+    height: 190px;
+    width: 190px;
+}
+.info {
+    font-family: "nexa", sans-serif;
+    font-size: 25px;
+    padding-top: 8px;
+}
+.services {
+    height: 450px;
+    width: 1160px;
+    background: #333;
+    background-image: url(imgs/package.png);
+    background-size: 1160px;
+    margin-left: -100px;
+}
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120%;
+    height: 120%;
+}
+.packages {
+    height: 450px;
+    width: 760px;
+    background: #333;
+    margin-left: -100px;
+    margin-right: -100px;
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 230px;
+}
+.box1 {
+    width: 350px;
+    height: 420px;
+    background: #111;
+    float: left;
+    border: 3px solid teal;
+    margin-bottom: 50px;
+}
+.box3 {
+    width: 350px;
+    height: 420px;
+    background: #111;
+    float: right;
+    border: 3px solid teal;
+    margin-bottom: 50px;
+}
+.packinfo {
+    font-family: "nexa", sans-serif;
+    font-size: 20px;
+    padding-top: 8px;
+    color: white;
+}
+.contact {
+    font-family: "nexa", sans-serif;
+    font-size: 30px;
+    padding-top: 8px;
+    color: white;
+    text-align: center;
+}
+a {
+    color: teal;
+    text-decoration: none;
+}
+    @keyframes gradient {
+        50% {
+            background-position: 100% 0;
+        }
+    }
